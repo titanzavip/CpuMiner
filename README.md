@@ -4,13 +4,22 @@
 termux-setup-storage
 ```
 ```
+apt update && apt upgrade
+```
+```
 pkg install proot-distro
 ```
 ```
-proot-distro install ubuntu-20.04
+proot-distro install ubuntu
 ```
 ```
-proot-distro login ubuntu-20.04
+proot-distro login ubuntu
+```
+
+
+# Ubuntu Start
+```
+apt update && apt upgrade
 ```
 ```
 apt install git
@@ -50,8 +59,6 @@ apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev
 ```
 ```
 ```
-```
-```
-```
-```
+
+
 
