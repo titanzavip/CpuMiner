@@ -1,4 +1,8 @@
 # CpuMiner
+
+```
+termux-setup-storage
+```
 ```
 pkg install proot-distro
 ```
@@ -50,5 +54,4 @@ apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev
 ```
 ```
 ```
-```
-```
+
