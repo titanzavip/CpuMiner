@@ -60,12 +60,5 @@ make -j2
 ```
 ```
 ```
+./cpuminer -a yespowerR16 -o stratum+tcp://hosname.org:port -O user:pass
 ```
-
-git clone https://github.com/glukolog/cpuminer-opt.git
-cd cpuminer-opt
-./autogen.sh
-CFLAGS="-O3 -march=armv7l -mtune=cortex-a55" ./configure --with-curl --with-crypto
-make -j2
-./cpuminer --help
-
