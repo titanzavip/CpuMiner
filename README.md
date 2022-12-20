@@ -25,22 +25,24 @@ apt update && apt upgrade
 apt install git
 ```
 ```
-git clone https://github.com/tpruvot/cpuminer-multi
+git clone https://github.com/glukolog/cpuminer-opt.git
 ```
 ```
-cd cpuminer-multi
+cd cpuminer-opt
 ```
 ```
-apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool
+./autogen.sh
 ```
 ```
-./build-android.sh
+CFLAGS="-O3 -march=armv7l -mtune=cortex-a55" ./configure --with-curl --with-crypto
+make -j2
 ```
 ```
-./cpuminer -a x16rv2 -0 stratum+tcp://stratum.gpuhot.com:4779
+./autogen.sh
 ```
 ```
--u Sh9d5aznHci9YL7b6m6Tu32y4cLEykhecS
+./configure CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a53" --with-curl --with-crypto
+```
 ```
 ```
 ```
@@ -57,5 +59,10 @@ apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev
 ```
 ```
 
-
+git clone https://github.com/glukolog/cpuminer-opt.git
+cd cpuminer-opt
+./autogen.sh
+CFLAGS="-O3 -march=armv7l -mtune=cortex-a55" ./configure --with-curl --with-crypto
+make -j2
+./cpuminer --help
 
