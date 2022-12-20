@@ -44,6 +44,9 @@ make -j2
 ./configure CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a53" --with-curl --with-crypto
 ```
 ```
+./autogen.sh
+CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a53" --with-curl --with-crypto
+make -j2
 ```
 ```
 ```
