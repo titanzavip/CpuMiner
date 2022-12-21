@@ -48,41 +48,46 @@ os-installer
 apt update && apt upgrade
 ```
 ```
-apt install git
+pkg update -y
 ```
 ```
-git clone https://github.com/glukolog/cpuminer-opt.git
+pkg install wget -y 
 ```
 ```
-cd cpuminer-opt
+pkg install curl -y
 ```
 ```
-./autogen.sh
+pkg install proot -y
 ```
 ```
-CFLAGS="-O3 -march=armv7l -mtune=cortex-a55" ./configure --with-curl --with-crypto
-make -j2
+pkg install tar -y
 ```
 ```
-./autogen.sh
+wget https://raw.githubusercontent.com/AndronixApp/Androni xOrigin/master/Installer/Ubuntu/ubuntu.sh -0 ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
 ```
 ```
-./configure CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a53" --with-curl --with-crypto
+./start-ubuntu.sh su
 ```
 ```
-./autogen.sh
-CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a53" --with-curl --with-crypto
-make -j2
+cd
 ```
 ```
+apt-get update && apt-get upgrade -y apt install git -y
 ```
 ```
+apt install proot -y
 ```
 ```
+apt-get install automake autoconf pkg-config libcur14-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
 ```
 ```
+git clone https://github.com/tpruvot/cpuminer-multi
 ```
 ```
+cd cpuminer-multi
+```
+```
+./build-linux-arm.sh
 ```
 
 ```
