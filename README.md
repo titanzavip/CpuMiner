@@ -55,7 +55,7 @@ apt install git -y
 apt install proot -y
 ```
 ```
-apt-get install automake autoconf pkg-config libcur14-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
+apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
 ```
 ```
 git clone https://github.com/tpruvot/cpuminer-multi
