@@ -44,33 +44,7 @@ os-installer
 
 
 # Ubuntu Start
-```
-apt update && apt upgrade
-```
-```
-pkg update -y
-```
-```
-pkg install wget -y 
-```
-```
-pkg install curl -y
-```
-```
-pkg install proot -y
-```
-```
-pkg install tar -y
-```
-```
-wget https://raw.githubusercontent.com/AndronixApp/Androni xOrigin/master/Installer/Ubuntu/ubuntu.sh -0 ubuntu.sh && chmod +x ubuntu.sh && bash ubuntu.sh
-```
-```
-./start-ubuntu.sh su
-```
-```
-cd
-```
+
 ```
 apt-get update && apt-get upgrade -y apt install git -y
 ```
