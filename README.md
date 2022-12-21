@@ -46,7 +46,10 @@ os-installer
 # Ubuntu Start
 
 ```
-apt-get update && apt-get upgrade -y apt install git -y
+apt-get update && apt-get upgrade -y
+```
+```
+apt install git -y
 ```
 ```
 apt install proot -y
@@ -63,6 +66,9 @@ cd cpuminer-multi
 ```
 ./build-linux-arm.sh
 ```
+
+
+
 
 ```
 ./cpuminer -a yespowerR16 -o stratum+tcp://hosname.org:port -O user:pass
