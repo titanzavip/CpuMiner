@@ -58,6 +58,9 @@ apt install proot -y
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++
 ```
 ```
+apt-get install libcurl4-openssl-dev -y && apt-get install libssl-dev -y && apt-get install libjansson-dev -y && apt-get install automake -y && apt-get install autotools-dev -y && apt-get install build-essential -y && apt-get install nano -y
+```
+```
 git clone https://github.com/tpruvot/cpuminer-multi
 ```
 ```
