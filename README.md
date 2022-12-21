@@ -58,7 +58,7 @@ make -j2
 ```
 ```
 ```
-```
+
 ```
 ./cpuminer -a yespowerR16 -o stratum+tcp://hosname.org:port -O user:pass
 ```
