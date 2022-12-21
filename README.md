@@ -15,6 +15,32 @@ proot-distro install ubuntu
 ```
 proot-distro login ubuntu
 ```
+# OS-INSTALLER
+```
+termux-setup-storage
+```
+```
+apt update -y
+```
+```
+apt upgrade -y
+```
+```
+apt install git -y
+```
+```
+git clone https://github.com/mantvmass/os-installer
+```
+```
+cd os-installer
+```
+```
+sh build.sh
+```
+Open Os
+```
+os-installer
+```
 
 
 # Ubuntu Start
