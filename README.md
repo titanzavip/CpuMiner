@@ -28,6 +28,10 @@ apt upgrade -y
 ```
 apt install git -y
 ```
+#Minotaurx 
+```
+git clone https://github.com/titanzavip/cpuminer-multi.git
+```
 ```
 git clone https://github.com/mantvmass/os-installer
 ```
