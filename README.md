@@ -70,6 +70,9 @@ apt update && apt upgrade
 apt install git gcc g++ autogen nano
 ```
 ```
+pkg install automake autoconf git
+```
+```
 apt-get install build-essential automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev
 ```
 ```
