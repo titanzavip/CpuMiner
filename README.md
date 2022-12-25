@@ -79,3 +79,8 @@ cd cpuminer-multi
 ```
 DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
 ```
+
+#LCC
+```
+CfXCaWXCKuCm6d8T4Kdx7Fq9cvqSe81YMA
+```
