@@ -74,7 +74,7 @@ cd cpuminer-multi
 ./build-linux-arm.sh
 ```
 ```
-./cpuminer -a minotaurx -o stratum+tcp://minotaurx.asia.mine.zergpool.com:7019 -u DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9 --timeout 120 -p  c=DOGE,mc=AVN,ID=Mine-1 -t=7
+./cpuminer -a minotaurx -o stratum+tcp://minotaurx.mine.zergpool.com:7019 -u DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9 --timeout 120 -p  c=DOGE,mc=LCC,ID=Miner01
 ```
 ```
 DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
