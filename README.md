@@ -64,6 +64,7 @@ apt-get install libcurl4-openssl-dev -y && apt-get install libssl-dev -y && apt-
 ```
 git clone https://github.com/titanzavip/cpuminer-multi.git
 ```
+
 ```
 git clone https://github.com/tpruvot/cpuminer-multi
 ```
@@ -76,6 +77,7 @@ cd cpuminer-multi
 ```
 ./cpuminer -a minotaurx -o stratum+tcp://minotaurx.mine.zergpool.com:7019 -u DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9 --timeout 120 -p  c=DOGE,mc=LCC,ID=Miner01
 ```
+#Doge
 ```
 DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
 ```
@@ -83,4 +85,8 @@ DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9
 #LCC
 ```
 CfXCaWXCKuCm6d8T4Kdx7Fq9cvqSe81YMA
+```
+#Set-arm-cortex53
+```
+./configure CFLAGS="-O3 -march=armv8-a+crypto -mtune=cortex-a53" --with-curl --with-crypto
 ```
