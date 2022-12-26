@@ -80,7 +80,9 @@ cd cpuminer-multi
 ```
 #Zpool
 ```
-./cpuminer -a minotaurx -o stratum+tcp://minotaurx.sea.mine.zpool.ca:7019 -u DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9 -p c=DOGE,zap=LCC
+./cpuminer -a minotaurx -o stratum+tcp://minotaurx.sea.mine.zpool.ca:7019
+username: <DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9>
+password: c=DOGE,zap=LCC
 ```
 #CoinminerZ
 ```
