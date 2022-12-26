@@ -78,13 +78,11 @@ cd cpuminer-multi
 ```
 ./cpuminer -a minotaurx -o stratum+tcp://minotaurx.mine.zergpool.com:7019 -u DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9 --timeout 120 -p  c=DOGE,mc=LCC,ID=Miner01
 ```
-#Zpool
-```
-./cpuminer -a minotaurx -o stratum+tcp://minotaurx.sea.mine.zpool.ca:7019
-username: <DRkNn7KAtpiRk2ySwtxKWHMHTLPndREFW9>
-password: c=DOGE,zap=LCC
-```
 #CoinminerZ
+```
+./cpuminer -a minotaurx -o stratum+tcp://sg-stratum.coinminerz.com:3311 -u CfXCaWXCKuCm6d8T4Kdx7Fq9cvqSe81YMA.Miner01
+```
+#Solo
 ```
 ./cpuminer -a minotaurx -o stratum+tcp://sg-stratum.coinminerz.com:3511 -u CfXCaWXCKuCm6d8T4Kdx7Fq9cvqSe81YMA.Miner01 
 ```
